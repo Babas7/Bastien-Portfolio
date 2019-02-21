@@ -1,0 +1,111 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-cropper {
+  width: 200px;
+  height: 200px; 
+  position: inherit;
+  display: flex;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-pic {
+display: inline;
+margin: 0 auto;
+height: 100%;
+width: auto;
+}
+
+body {
+    background-color: #f3f3f3;
+    background-size: 100%;
+    font-family: 'Vollkorn', serif, 'Noto Sans KR', sans-serif; 'Catamaran', sans-serif;'Alegreya', serif;
+    text-align:center;
+
+      }
+
+      /* faire 2 columns pour segmenter les expériences */
+
+    h1{
+        font-family: 'Catamaran', sans-serif;
+        font-size: 35px;
+        color: #222222;
+        
+      }
+
+    h2{
+        font-family: Catamaran', sans-serif;
+          font-size: 28px;
+          color: #222222;
+          margin: 4px 5px;
+          padding: 10px 15px;
+
+      }
+
+      h4{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 22px;
+        color:  #482af1;
+        margin: 4px 5px;
+        padding: 10px 15px;
+
+      }
+
+      h3{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+        color:  #222222;
+        margin: 10px;
+        padding: 10px 15px;
+
+      }
+
+
+
+     p {
+      font-size: 13px;
+      color: rgb(36, 36, 36);
+      text-align: justify;
+      margin: 0px;
+      padding: 10px;
+
+     }
+
+.content {
+  width: 800px;
+  margin: auto;
+}
+
+.fab.fa-medium {
+  font-size: 40px;
+  color: black;
+ }
+ 
+ footer {
+  background-color: #fffbbe;
+  display: flex;
+  justify-content: center;
+  size : 400px;
+}
+
+.footer-items {
+  height: 120px;
+  font-size: 35px;
+  display : flex;
+  justify-content : center;
+  align-items: center;
+
+}
+
+.footer-item {
+padding: 20px;
+color: black;
+
+}
+
+/* footer : contact + links + made with passion... */
